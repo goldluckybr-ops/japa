@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Japinha!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #8b0000 0%, #000000 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 450px;
+            width: 95%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .foto-perfil {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #ff0000;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        }
+        h1 { font-size: 2rem; color: #ff3333; margin-bottom: 10px; }
+        .texto-especial { 
+            font-size: 1rem; 
+            line-height: 1.6; 
+            text-align: justify; 
+            margin-bottom: 20px;
+            color: #ddd;
+        }
+        .angu { 
+            font-style: italic; 
+            color: #ff8a80; 
+            margin-bottom: 25px; 
+            display: block;
+        }
+        .player-area {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 15px;
+        }
+        audio {
+            width: 100%;
+            height: 40px;
+            margin-top: 10px;
+        }
+        .label-musica {
+            font-size: 0.8rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="foto.jpg" alt="Japinha e Angu" class="foto-perfil">
+    
+    <h1>Parabéns, Japinha! 🎂</h1>
+    
+    <p class="texto-especial">
+        Feliz aniversário Japinha, infelizmente não vou conseguir estar contigo no momento em que você estiver fazendo 20 aninhos mas quero que saiba que você é uma pessoa muito incrível, e a pessoa mais legal que conheço, continue sendo essa garota animada que sempre tira risada dos outros e continue com esse seu carisma, por mais que eu não vá estar aí sinta-se abraçada pelo angu, feliz aniversário Yasmin, ansioso pra ir ai.
+    </p>
+    
+    <span class="angu">"Angu sentes saudades..." ❤️</span>
+
+    <div class="player-area">
+        <span class="label-musica">🎵 Restless - Untitled</span>
+        <audio controls>
+            <source src="musica.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+    </div>
+</div>
+
+</body>
+</html>
